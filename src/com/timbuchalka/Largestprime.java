@@ -3,7 +3,7 @@ package com.timbuchalka;
 public class Largestprime {
 
     public static void main(String[] args) {
-        System.out.println(getLargestPrime(7));
+        System.out.println(getLargestPrime(8));
     }
 
     public static int getLargestPrime(int number){
