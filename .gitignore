@@ -1,3 +1,4 @@
 .idea
 *.class
 Methods.iml
+/out/production/Methods/META-INF/Methods.kotlin_module
