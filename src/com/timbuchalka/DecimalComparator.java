@@ -18,9 +18,7 @@ public class DecimalComparator {
         i2 = (int)(d2*1000);
         System.out.println(i1 +" "+ i2);
 
-        if (i1 == i2)
-            return true;
-        else return false;
+        return i1 == i2;
     }
     public static double calcFeetAndInchesToCentimeters(int feet, int inch){
         return (feet*12 + inch)*2.54;

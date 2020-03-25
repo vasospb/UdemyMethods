@@ -3,25 +3,32 @@ package com.timbuchalka;
 public class Main {
 
     public static void main(String[] args) {
-        boolean gameOver = true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
 
-        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
-        System.out.println("Your final score was " + highScore);
+        Car porche = new Car();
+        Car holden = new Car();
 
-        score = 10000;
-        levelCompleted = 8;
-        bonus = 200;
-
-        highScore = calculateScore(gameOver, score, levelCompleted, bonus);
-        System.out.println("Your final score was " + highScore);
-
-        displayHighScorePosition("Vaso", calculateHighScorePosition(1000));
-        displayHighScorePosition("Tim", calculateHighScorePosition(900));
-        displayHighScorePosition("Percy", calculateHighScorePosition(400));
-        displayHighScorePosition("Gilbert", calculateHighScorePosition(50));
+        porche.setModel("Porsche");
+        System.out.println(porche.getModel());
+//
+//        boolean gameOver = true;
+//        int score = 800;
+//        int levelCompleted = 5;
+//        int bonus = 100;
+//
+//        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+//        System.out.println("Your final score was " + highScore);
+//
+//        score = 10000;
+//        levelCompleted = 8;
+//        bonus = 200;
+//
+//        highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+//        System.out.println("Your final score was " + highScore);
+//
+//        displayHighScorePosition("Vaso", calculateHighScorePosition(1000));
+//        displayHighScorePosition("Tim", calculateHighScorePosition(900));
+//        displayHighScorePosition("Percy", calculateHighScorePosition(400));
+//        displayHighScorePosition("Gilbert", calculateHighScorePosition(50));
     }
 
     public static int calculateScore(boolean gameOver,int score, int levelCompleted, int bonus) {
