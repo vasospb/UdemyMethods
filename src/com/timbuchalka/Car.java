@@ -16,7 +16,18 @@ public class Car {
         else this.model = "Unknown";
     }
 
+    public int getWheels() {
+        return wheels;
+    }
+
+    public void setWheels(int wheels) {
+        this.wheels = wheels;
+    }
+
     public String getModel(){
         return this.model;
     }
+
+
+
 }
